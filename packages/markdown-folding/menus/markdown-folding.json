@@ -1,0 +1,42 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Cycle markdown-folding",
+        "command": "markdown-folding:cycle"
+      },
+      {
+        "label": "foldall_h1",
+        "command": "markdown-folding:foldall-h1"
+      },
+      {
+        "label": "foldall_h2",
+        "command": "markdown-folding:foldall-h2"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Markdown Folding",
+          "submenu": [
+            {
+              "label": "Cycle",
+              "command": "markdown-folding:cycle"
+            },
+            {
+              "label": "foldall-h1",
+              "command": "markdown-folding:foldall-h1"
+            },
+            {
+              "label": "foldall-h2",
+              "command": "markdown-folding:foldall-h2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

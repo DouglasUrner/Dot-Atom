@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/yw/z380yj_56m7fr33srnxtszy40000gn/T/d-118324-27392-1eidn7i.8tjqkhuxr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/yw/z380yj_56m7fr33srnxtszy40000gn/T/d-118324-27392-1eidn7i.8tjqkhuxr/package.tgz",
+        "spec": "/private/var/folders/yw/z380yj_56m7fr33srnxtszy40000gn/T/d-118324-27392-1eidn7i.8tjqkhuxr/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/yw/z380yj_56m7fr33srnxtszy40000gn/T/apm-install-dir-118324-27392-19un3j2.awlbgo80k9"
+    ]
+  ],
+  "_from": "../d-118324-27392-1eidn7i.8tjqkhuxr/package.tgz",
+  "_id": "markdown-folding@0.3.1",
+  "_inCache": true,
+  "_location": "/markdown-folding",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/yw/z380yj_56m7fr33srnxtszy40000gn/T/d-118324-27392-1eidn7i.8tjqkhuxr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/yw/z380yj_56m7fr33srnxtszy40000gn/T/d-118324-27392-1eidn7i.8tjqkhuxr/package.tgz",
+    "spec": "/private/var/folders/yw/z380yj_56m7fr33srnxtszy40000gn/T/d-118324-27392-1eidn7i.8tjqkhuxr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118324-27392-1eidn7i.8tjqkhuxr/package.tgz",
+  "_shasum": "4c470148eb4133c07e3fc746a347e247be2b8945",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/yw/z380yj_56m7fr33srnxtszy40000gn/T/d-118324-27392-1eidn7i.8tjqkhuxr/package.tgz",
+  "_where": "/private/var/folders/yw/z380yj_56m7fr33srnxtszy40000gn/T/apm-install-dir-118324-27392-19un3j2.awlbgo80k9",
+  "activationCommands": {
+    "atom-workspace": [
+      "markdown-folding:cycle",
+      "markdown-folding:foldall-h1"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/JoseBlanca/markdown-folding/issues"
+  },
+  "dependencies": {},
+  "description": "Folds and unfolds markdown headings",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.9.0 <2.0.0"
+  },
+  "homepage": "https://github.com/JoseBlanca/markdown-folding#readme",
+  "keywords": [
+    "markdown"
+  ],
+  "license": "MIT",
+  "main": "./lib/markdown-folding",
+  "name": "markdown-folding",
+  "optionalDependencies": {},
+  "readme": "# markdown-folding package\n\nIt folds and unfolds markdown sections following the headers.\n\nThis package is inspired by the package [markdown-foler](https://github.com/tshort/markdown-folder), but unfortunately after Atom 1.9.0 that package [stop working](https://github.com/tshort/markdown-folder/issues/19) and I reimplemented some of its functionality.\n\nCommands:\n1. 'markdown-folding:cycle': => Cycle heading at cursor (Show headings of subsections - collapse all - show all)\n2. 'markdown-folding:foldall-h1': => Fold all h1 headings\n3. 'markdown-folding:foldall-h2': => Fold all h2 headings\n\nSuggested bindings (not implemented, use in your personal settings if you like):\n```\n'atom-text-editor[data-grammar=\"source gfm\"]:not([mini])':\n  'tab':        'markdown-folding:cycle'\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseBlanca/markdown-folding.git"
+  },
+  "version": "0.3.1"
+}

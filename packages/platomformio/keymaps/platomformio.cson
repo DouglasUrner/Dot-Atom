@@ -1,0 +1,17 @@
+# Keybindings require three things to be fully defined: A selector that is
+# matched against the focused element, the keystroke and the command to
+# execute.
+#
+# Below is a basic keybinding which registers on all platforms by applying to
+# the root workspace element.
+
+# For more detailed documentation see
+# https://atom.io/docs/latest/behind-atom-keymaps-in-depth
+'atom-workspace':
+  'shift-cmd-b':     'platomformio:build'
+  'shift-cmd-u':     'platomformio:upload'
+  'alt-shift-cmd-p': 'platomformio:program'
+  'alt-shift-cmd-f': 'platomformio:uploadfs'
+  'shift-cmd-c':     'platomformio:clean'
+  'shift-cmd-e':     'platomformio:close'
+  'shift-cmd-k':     'platomformio:kill-process'

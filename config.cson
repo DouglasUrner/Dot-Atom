@@ -2,9 +2,37 @@
   core:
     disabledPackages: [
       "language-gfm"
+      "autocomplete-clang"
+      "build"
+      "file-icons"
+      "intentions"
+      "linter"
+      "linter-gcc"
+      "linter-ui-default"
     ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      ".pioenvs"
+      ".piolibdeps"
+      ".clang_complete"
+      ".gcc-flags.json"
+    ]
+    telemetryConsent: "limited"
   "exception-reporting":
     userId: "cdc7e784-3ed1-400a-88ce-29bb7a812540"
+  "file-icons":
+    coloured: false
+  "linter-ui-default":
+    useBusySignal: false
   "tool-bar":
     iconSize: "16px"
+    position: "Left"
   "tool-bar-markdown-writer": {}
+  "tree-view":
+    hideIgnoredNames: true

@@ -46,7 +46,7 @@
     }
   },
   "dependencies": {
-    "lodash": "^3.10.1"
+    "lodash": "^4.17.15"
   },
   "description": "Counts the words (and characters) in your current document, as well as in your selections and displays it in the status bar.",
   "devDependencies": {},
